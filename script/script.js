@@ -48,21 +48,19 @@ document.addEventListener('DOMContentLoaded', function() {
                             Saliento que o não cumprimento desta NOTIFICAÇÃO PRELIMINAR no prazo estipulado pela Lei Municipal acarretará MULTA DIÁRIA no valor de 350 UFM (Unidade Fiscal Municipal),
                             o que equilave hoje ao valor de R$ 2.086,00 ( dois mil e oitenta e seis reais), que somente cessará a cobrança até que seja restabelecido a via para seu uso regular. 
 
-                            <p>São João da Ponte MG ${new Date().toLocaleDateString()}</p>
-                            <p><strong>Data de vencimento:</strong> ${new Date(new Date().getTime() + (prazoDias * 24 * 60 * 60 * 1000)).toLocaleDateString()}</p>
-
-                        </p>
+                        </p><br><br>
+                        <p>São João da Ponte MG ${new Date().toLocaleDateString()}</p>
+                            <p style="padding-bottom: 30px";><strong>Data de vencimento:</strong> ${new Date(new Date().getTime() + (prazoDias * 24 * 60 * 60 * 1000)).toLocaleDateString()}</p>
                     </section>
 
-                    <footer style="display:flex; justify-content: center; align-items: center; flex-direction: column; heigh: 100%; width: 100%; padding-bottom: 500px;" >
+                    <footer style="display:flex; justify-content: center; align-items: center; flex-direction: column; heigh: 100%; width: 100%; padding-bottom:300px;" >
                         
                         <p>_________________________________</p><br>
-                        <strong style="text-align:center;">${responsavel}</strong><br><br>
+                        <p style="text-align:center;><strong">${responsavel}</strong></p><br><br>
 
-                        <strong style="text-align:center;">
-                            ${ responsavel === 'LUCAS RENAN SANTANA BARBOSA' ? 'FISCAL DE POSTURAS' : (responsavel === 'ALISSON GUSMÃO CORDEIRO' ? 'CHEFE DO DEPARTAMENTO DE OBRAS' : 'SECRETÁRIO DE INFRAESTRUTURA')}
-                        </strong>
-                        <p style= "text-align: center;">Assinatura________________________________ Data de recebimento____/____/____</p>
+                        <p><strong style="text-align:center;">${ responsavel === 'LUCAS RENAN SANTANA BARBOSA' ? 'FISCAL DE POSTURAS' : (responsavel === 'ALISSON GUSMÃO CORDEIRO' ? 'CHEFE DO DEPARTAMENTO DE OBRAS' : 'SECRETÁRIO DE INFRAESTRUTURA')}</strong></p>
+                            
+                        <p style= "text-align: center; paddin-top: 100px; padding-top: 100px;">Assinatura________________________________ Data de recebimento____/____/____</p>
 
                     </footer>
 
