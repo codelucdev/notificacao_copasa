@@ -47,12 +47,15 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>
                             Saliento que o não cumprimento desta NOTIFICAÇÃO PRELIMINAR no prazo estipulado pela Lei Municipal acarretará MULTA DIÁRIA no valor de 350 UFM (Unidade Fiscal Municipal),
                             o que equilave hoje ao valor de R$ 2.086,00 ( dois mil e oitenta e seis reais), que somente cessará a cobrança até que seja restabelecido a via para seu uso regular. 
+
+                            <p>São João da Ponte MG ${new Date().toLocaleDateString()}</p>
+                            <p><strong>Data de vencimento:</strong> ${new Date(new Date().getTime() + (prazoDias * 24 * 60 * 60 * 1000)).toLocaleDateString()}</p>
+
                         </p>
                     </section>
 
-                    <footer style="display:flex; justify-content: center; align-items: center; flex-direction: column; heigh: 100%; width: 100%; padding-bottom: 400px;" >
-                        <p>São João da Ponte MG ${new Date().toLocaleDateString()}</p>
-                        <p><strong>Data de vencimento:</strong> ${new Date(new Date().getTime() + (prazoDias * 24 * 60 * 60 * 1000)).toLocaleDateString()}</p>
+                    <footer style="display:flex; justify-content: center; align-items: center; flex-direction: column; heigh: 100%; width: 100%; padding-bottom: 500px;" >
+                        
                         <p>_________________________________</p><br>
                         <strong style="text-align:center;">${responsavel}</strong><br><br>
 
