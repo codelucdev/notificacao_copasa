@@ -40,13 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>
                             <strong>A SECRETARIA DE OBRAS E SERVIÇOS URBANOS DO MUNICÍPIO DE SÃO JOÃO DA PONTE</strong>, entidade de direito público interno, pertencente ao Estado de Minas Gerais,
                             no CNPJ sob n° 16.928.483/0001-29, sediada na Praça Olímpio Campos, n° 128, Centro, nesta cidade de São João da Ponte, vem perante a Vossa Senhoria
-                             promover <strong>NOTIFICAÇÂO PRELIMINAR</strong>, ficando assim a entidade obrigada a recompor a via pública, conforme foto anexa, localizada na ${rua}, próximo 
+                             promover <strong>NOTIFICAÇÃO PRELIMINAR</strong>, ficando assim a entidade obrigada a recompor a via pública, conforme foto anexa, localizada na ${rua}, próximo 
                              ao imóvel n° ${n_proximo}, ${bairro}, neste município, com o piso existente anteriormente, <strong>no praso máximo de ${prazoDias} dias</strong> a contar do recebimento.
                         </p>
                         
                         <p>
                             Saliento que o não cumprimento desta NOTIFICAÇÃO PRELIMINAR no prazo estipulado pela Lei Municipal acarretará MULTA DIÁRIA no valor de 350 UFM (Unidade Fiscal Municipal),
-                            o que equilave hoje ao valor de R$ 2.086,00 ( dois mil e oitenta e seis reais), que somente cessará a cobrança até que seja restabelecido a via para seu uso regular. 
+                            o que equivale hoje ao valor de R$ 2.086,00 ( dois mil e oitenta e seis reais), que somente cessará a cobrança até que seja restabelecido a via para seu uso regular. 
 
                         </p><br><br>
                         <p>São João da Ponte MG ${new Date().toLocaleDateString()}</p>
